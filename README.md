@@ -118,7 +118,7 @@ Each output category will depend on the formatting, in a screenplay you have cha
 
 I will write a Book using this App, to show off how it works, because you will have to write the book first, for the app to be able to use it to build all the different formats for output, one being a game.
 
-This app is designed for those who what to document something, maybe their life, a diary, maybe a story they want to write, a product they want to sell, or something for work, or a corporation that wants a tool that does something far more than just play games, but let me put this storyline into a [Wiki]().
+This app is designed for those who what to document something, maybe their life, a diary, maybe a story they want to write, a product they want to sell, or something for work, or a corporation that wants a tool that does something far more than just play games, but let me put this storyline into a [Wiki Book]( https://github.com/Light-Wizzard/RealityApplication/wiki/Book).
 
 ### Features
 
@@ -150,7 +150,7 @@ Gesture movements:
 •	Fly-Supersonic
 •	Fly-Hypersonic
 
-
+This app needs to work for disabled people, where sight impaired or blind and requires other means to describe what is going on in the images you want everyone to see, including hearing impaired or deft, which means you have to find another way to tell them what you are saying, and what if they have multiple disabilities, no sight, and no sound, and maybe only one hand, maybe none, and no feet, so what do we do then, well we use the head sensor that is built into the headset I am designing.
 
 
 ## Hardware
@@ -168,7 +168,6 @@ Reality is what we sense through visual sight, audible sounds, or touch, just 3 
 Not everyone can see or hear or might have an impairment, as I do, so this project is about multiple forms of presentation, a way of saying we have sight, sound, and touch, and that can include braille, so I will try to address how to create VR or AR gear for those with disabilities.
 
 ## Notes
-
 
 I am using an NVIDIA 3060 with 12 GB RAM, on a XEON 10 Core with 20 Threads, and 32 GB RAM.
 
