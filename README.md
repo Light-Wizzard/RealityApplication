@@ -4,6 +4,17 @@ AR VR Reality for Web, Desktop, Mobile, and beyond
 
 The goal of this Repository is develope one application that will work in multiple Realities.
 
+## Table of Content
+* [Introduction](#Introduction)
+* [Watchlist](#Watchlist)
+* [UI](#UI)
+* [Storage](#Storage)
+* [Concepts](#Concepts)
+* [](#)
+* [](#)
+
+# Introduction
+
 I will design a Viritual Reality or VR headset and controllers, as a Do it Yourself or DIY project, with all the planes, and even some links to equipment that can test the optical systems this project has designed, such as 
 [Radiant Vision Systems](https://www.radiantvisionsystems.com/products/imaging-colorimeters-photometers/ar/vr-lens), 
 as well as others, so you can ensure the design you will use is tested.
@@ -61,6 +72,15 @@ Let me list all the controls we need in this applacation:
 
 File storage is device dependent, there is no magic when it comes to where you want to store your files, if you are on a device like a smartphone or tablet, you might have limited storage, so databases, documents, videos, audios, and other documents, take up resources, yet you need to store files for free, and there are options like [Google GDrive](https://drive.google.com/drive/my-drive), or [MS One Drive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage), and others, so this app must be able to know where to store files.
 
-I will talk about a VPS or Virtual Personal Server, where you pay to have a Virtual Server like Linux, Windows, or Mac, and can run a Website, or host files, which is what I will talk about here, and you will find that informatoin in the [Wiki](#Home).
+I will talk about a VPS or Virtual Personal Server, where you pay to have a Virtual Server like Linux, Windows, or Mac, and can run a Website, or host files, which is what I will talk about here, and you will find that informatoin in the [Wiki](https://github.com/Light-Wizzard/RealityApplication/wiki).
+
+## Concepts
+
+To write an applicaton that is cross-platform, usign Qt 6 and above, and the latest MS .Net MAUI, and runs on many devices, and also runs as a Game using Unreal Engine 5 and above, and Unitity, just so I can show the same thing using two differnt Game Engines.
+
+## Hardware
+
+You need a modern CPU and GPU that will run Unreal or Unitiy Games if you want to run in a Game mode, or VR or AR mode, otherwise, you should be able to run the appliations written in Qt 6 and above, or the lastest .Net MAUI, so you need to have these applications or SDK installed.
+
 
 ### End of File
