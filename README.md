@@ -30,4 +30,31 @@ This Application is a simple Project Manager that manages Books, and these books
 * [Smart Contact lens](https://hackaday.com/2022/05/22/smart-contact-lenses-put-you-up-close-to-the-screen/)
 * [VR Blue Light Lens](https://www.vr-wave.store/)
 
+## UI
 
+When we write a UI that needs to work across all devices, like desktops, laptops, smartPhones, smartTv, smart Watches, and so on, and web is another factor, so the common factor is that every control we have for one platform must work on all of them.
+
+Using Qt 6, I would Quick using QML, where JavaScript is compliled like C, and this uses the Mobile Application look as the common denuminator, now WebAssembly has its own look, but if we want to deal with Data, we need a system everyone can use for Free, so this is what divides free from paid, and that is storage of all your files.
+
+Using .Net MAUI is similar, and currently, I am waiting for Linux support, and .Net 7, so that intergration is already built in, and I do not have to migrate.
+
+Unreal Engine has its own look when if comes to data entery, and this is what this applicatoin must focus on, how to get all the same functionality from all my applicaction controls I need.
+
+Let me list all the controls we need in this applacation:
+
+* Line Editor: This is a single line entery like User Name or Passwork where you see astrics when you type.
+* Text Editor: This is a multiple line entery like Discription, and is limited to only text characters.
+* Text Processor: This is like a Text Editor only it has full Text styling like **bold**, *italic*, and ~~strike through~~
+* List: Display a list of items.
+* List/Detail view: List that on click, it has a detailed page.
+* Links: Links to other like items, or internal methodes
+* Supported Document types: All Supported by Open Office, plus: Videos, Audios, PDF, HTML, and other formats.
+* Push Buttons: With actions
+* Layout types: Stack, Flow, Grid, and other popular layouts
+* Text to Speach or TTS: This will use the native installed software to handle requests and processing
+* Speach to Text or STT: This will use the native installed software to handle requests and processing
+* Email: IMap, and limited POP3 on devices that support it
+* SMS: Device dependent
+* The list goes on to what is a common control for all devices and OS
+
+### End of File
