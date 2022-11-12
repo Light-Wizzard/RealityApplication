@@ -2,20 +2,21 @@
 
 AR VR Reality for Web, Desktop, Mobile, and beyond
 
-The goal of this Repository is develope one application that will work in multiple Realities.
+This Repository aims to develop one application that will work in multiple Realities.
 
 ## Table of Content
+
 * [Introduction](#Introduction)
 * [Watchlist](#Watchlist)
 * [UI](#UI)
 * [Storage](#Storage)
 * [Concepts](#Concepts)
-* [](#)
+* [Hardware](#Hardware)
 * [](#)
 
 # Introduction
 
-I will design a Viritual Reality or VR headset and controllers, as a Do it Yourself or DIY project, with all the planes, and even some links to equipment that can test the optical systems this project has designed, such as 
+I will design a Virtual Reality or VR headset and controllers, as a Do it Yourself or DIY project, with all the planes, and even some links to equipment that can test the optical systems this project has designed, such as 
 [Radiant Vision Systems](https://www.radiantvisionsystems.com/products/imaging-colorimeters-photometers/ar/vr-lens), 
 as well as others, so you can ensure the design you will use is tested.
 
@@ -34,7 +35,6 @@ My goal is to show you in code how to write for both AR and VR while being compa
 We have to be able to write an Application in Unreal Engine 5 or greater, Qt, .Net MAUI, which covers the Cross-Platform aspects of writing a one Application that can run on Linux, Android, Mac, iOS, Windows, PI and other Operations Systems, devices, and Machines, so I will show you how to do this in code, using Unreal Engine 5, Qt 6, and .Net MAUI latest.
 
 This Application is a simple Project Manager that manages Books, and these books are in a specific format that this applicaton can handle accross multiple devices like Mobile devices, Smartphones, Tablets, as well as Laptops, Desktops, TV, and watches, I will cover all these topics in one working Applicatoion.
-
 
 ## Watchlist
 
@@ -82,5 +82,10 @@ To write an applicaton that is cross-platform, usign Qt 6 and above, and the lat
 
 You need a modern CPU and GPU that will run Unreal or Unitiy Games if you want to run in a Game mode, or VR or AR mode, otherwise, you should be able to run the appliations written in Qt 6 and above, or the lastest .Net MAUI, so you need to have these applications or SDK installed.
 
+## Realitiy
+
+Reality is what we sense through visual sight, audible sounds, or touch, just 3 of our main senses, but we have senses for smell, and taste, but those are not functions we can program an environment to cover, we have no smell or taste controls, so our reality is limited to what controls we have now, but we can talk about building these controls because smell and taste are controls we can add, but how they smell and taste will be up to you.
+
+Not everyone can see or hear or might have an impairment, as I do, so this project is about multiple forms of presentation, a way of saying we have sight, sound, and touch, and that can include braille, so I will try to address how to create VR or AR gear for those with disabilities.
 
 ### End of File
