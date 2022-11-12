@@ -27,4 +27,7 @@ This Application is a simple Project Manager that manages Books, and these books
 
 ## Watchlist
 
-[Smart Contact lens](https://hackaday.com/2022/05/22/smart-contact-lenses-put-you-up-close-to-the-screen/)
+* [Smart Contact lens](https://hackaday.com/2022/05/22/smart-contact-lenses-put-you-up-close-to-the-screen/)
+* [VR Blue Light Lens](https://www.vr-wave.store/)
+
+
