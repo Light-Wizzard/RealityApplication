@@ -22,4 +22,9 @@ My goal is to show you in code how to write for both AR and VR while being compa
 
 We have to be able to write an Application in Unreal Engine 5 or greater, Qt, .Net MAUI, which covers the Cross-Platform aspects of writing a one Application that can run on Linux, Android, Mac, iOS, Windows, PI and other Operations Systems, devices, and Machines, so I will show you how to do this in code, using Unreal Engine 5, Qt 6, and .Net MAUI latest.
 
-This Application 
+This Application is a simple Project Manager that manages Books, and these books are in a specific format that this applicaton can handle accross multiple devices like Mobile devices, Smartphones, Tablets, as well as Laptops, Desktops, TV, and watches, I will cover all these topics in one working Applicatoion.
+
+
+## Watchlist
+
+[Smart Contact lens](https://hackaday.com/2022/05/22/smart-contact-lenses-put-you-up-close-to-the-screen/)
