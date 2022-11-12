@@ -57,4 +57,10 @@ Let me list all the controls we need in this applacation:
 * SMS: Device dependent
 * The list goes on to what is a common control for all devices and OS
 
+## Storage
+
+File storage is device dependent, there is no magic when it comes to where you want to store your files, if you are on a device like a smartphone or tablet, you might have limited storage, so databases, documents, videos, audios, and other documents, take up resources, yet you need to store files for free, and there are options like [Google GDrive](https://drive.google.com/drive/my-drive), or [MS One Drive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage), and others, so this app must be able to know where to store files.
+
+I will talk about a VPS or Virtual Personal Server, where you pay to have a Virtual Server like Linux, Windows, or Mac, and can run a Website, or host files, which is what I will talk about here, and you will find that informatoin in the [Wiki](#Home).
+
 ### End of File
