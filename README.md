@@ -1,8 +1,8 @@
 # Reality Application
 
-AR/VR Reality for Web, Desktop, Mobile, and beyond
+Reality is seen without devices, but there are two types of hardware, that can display Alternate Realities, one is Arguments Reality or AR, and the other is Virtual Reality or VR, this is about designing Hardware and Software that works for both types of realities, including Reality.
 
-There are two types of hardware displaying alternate realities, one is Arguments Reality or AR, and the other is Virtual Reality or VR.
+AR/VR Reality, plus Reality for Web, Desktop, Mobile, and beyond
 
 This Repository aims to develop one application that will work in multiple Realities.
 
@@ -76,9 +76,20 @@ I decided on a complete helmet over what is currently out there, the reason is s
 
 This device will use 3 types of connectivity:
 
-• Network cable RJ-45
-• Bluetooth
-• WIFI
+* Network cable RJ-45
+* Bluetooth
+* WIFI
+
+You can buy VR Gear for around $500 for a good enough gear to use for daily work, think about how much time you spend writing documents unless your typing speed improves in VR or AR, it will still take a lot of time to write, only in VR or AR mode, your reality of it changes.
+
+I have looked at all kinds of technology that is coming up and out there, stuff like AR Contacts, Hologram Technology, to name a few, while my only hands-on was my Samsung 7 Edge VR Headset, and I do not like the smartphone that close to my head, so I started to look at standalone, with mini-monitors for each eye, and they have high resolution, and you can buy filters for them with your prescription, so you do not need glasses, but that technology is still not what I wanted, because of the headset size, I thought you might as well change it to helmet design, and these wrap around monitors would work, maybe projection, I have to see what is cost-effective for the average DIY project.
+
+I know the hardest part of putting a monitor in front of your eyes, is the environment, you have to have air flow to keep the screen from fogging up, and you do not want your eyes to dry out, so you have to have very good ventilation, and defogging system in place, and that normally comes down to keeping the temperature of the unit, and humidity levels down, which can be some type of piezoelectric unit that can help pull condensation out of the mask area.
+
+The user helmet design is critical, the eye filer should double as a prescription for sight-impaired people that normally need glasses, or might need glasses to see this HUD, or Heads up Display, which is a clear curved monitor that you can see clearly through so you can see your Reality in Augmented Reality or AR mode, and you can then put on a VR cover, that you cannot see through, and it can also have its own monitor, so it can project the background, to show a different reality, while still running in AR mode, but fully capable of running in VR mode, where it now has two monitors that overlay.
+
+There is a lot of talk about if AR or VR is good for your eyes, I can tell you from years of looking at various monitors, is that they are all bad for eyes, and we all know this, and to lie about it, is stupid, and why I wanted to design a new type of AR/VR reality experience, one goal is use the AR mode to make you use your eyes to see things that are really at a distance away, so you are not always focusing on things that are close to you, and this monitor is not as close as most, in fact, besides a monitor that sits on a desk, you compare this design to contacts or any VR/AR headset or glasses on the market, this distance is pushing the limits, it will sit like a doom over each eye, it will sit above your nose, so your nose is not venting on the lens, and it opens up your field of view wider than normal, giving you more room to put AR text and graphics in areas you would not normally look at, so it forces your eyes to be used in a way you never used them, and this can cause eye strain if you do not understand what that is, it feels uncomfortable, and why you will have to adjust this in the settings. There is no way to make anything you look through, make better for your eyes, that is a sales pitch, my goal is to show you that by using commercially available parts, you can create new hardware that should exercise your eyes in ways that are beneficial as eye exercises go.
+
 
 ### Project-Manager
 
@@ -88,9 +99,9 @@ What is a book, is a good question, what is a project, well that can be describe
 
 We will start off with the interface, in Game mode, we have an empty bookshelf, in the App, this can be an empty list, and now I will go back and forth from Game mode to App mode, so these are what we have:
 
-•	Bookshelf (Open Office Document types, and Word DocX)
-•	Video shelf
-•	Audio shelf
+* Bookshelf (Open Office Document types, and Word DocX)
+* Video shelf
+* Audio shelf
 
 The Book is stored in an SQLite Database, this is a common database that works well for Desktop, and Mobile, but on the Web, you have an issue as to where the database is located, so I will address that using a URL for all assets.
 
@@ -100,7 +111,9 @@ You start with a concept, for this example, it is a dream about a Wizard that sh
 
 Every book is made up of one or more works that will form a sentence, which is one Database entry in this application, now there are words that have a period in them, so we have a special character for those, thus an end of line period is also a special type of character, so you will find them on the toolbar. 
 
-The reason why I use special characters for some punctions like a period is that there are many uses for it, .Net MAUI is one such case, as is the end of this subject. 
+I use special characters for some punctions like a period because there are many uses for it .Net is one such case, as is the end of this sentence. You can also end the paragraph with a period. 
+
+When the program converts what you wrote into the output format you chose, it will look for the period or end-of-line marker.
 
 You take all your sentences and you put them in the order you want them to read in, and then you format them by grouping them into paragraphs, categorizing them, and subcategorizing them, so you can pick a paragraph style, one is a short style, this is good for mobile devices, what I have to do is make a list of paragraph names say introduction, this is normally one paragraph on a Desktop or book, but on a mobile device, you want it shorter, so you make a subcategory off of introduction and call it subject, details, conclusion, a very good structure for all categories so this is a pattern, and it makes it easy for the app to format documents that are free flowing, and need to be formatted in many ways.
 
@@ -120,6 +133,8 @@ I will write a Book using this App, to show off how it works, because you will h
 
 This app is designed for those who what to document something, maybe their life, a diary, maybe a story they want to write, a product they want to sell, or something for work, or a corporation that wants a tool that does something far more than just play games, but let me put this storyline into a [Wiki Book]( https://github.com/Light-Wizzard/RealityApplication/wiki/Book).
 
+
+
 ### Features
 
 With helmets HUDs are humid due to sweating, requiring a fan on the top, and air holes in the padding of the material to allow air to flow through. 
@@ -131,24 +146,24 @@ There is a built-in sensor pack that can be used to monitor your head orientatio
 
 Gesture movements:
 
-•	Idle
-•	Walk
-•	Run
-•	Jump
-•	Float-Water
-•	Swim-Stroke
-•	Swim-Backstroke
-•	Swim-Underwater
-•	Float-Air
-•	Skydive-Flat
-•	Skydive-Fast
-•	Skydive-Parachute
-•	Fly-Idle
-•	Fly-Slow
-•	Fly-Medium
-•	Fly-Fast
-•	Fly-Supersonic
-•	Fly-Hypersonic
+* Idle
+* Walk
+* Run
+* Jump
+* Float-Water
+* Swim-Stroke
+* Swim-Backstroke
+* Swim-Underwater
+* Float-Air
+* Skydive-Flat
+* Skydive-Fast
+* Skydive-Parachute
+* Fly-Idle
+* Fly-Slow
+* Fly-Medium
+* Fly-Fast
+* Fly-Supersonic
+* Fly-Hypersonic
 
 This app needs to work for disabled people, where sight impaired or blind and requires other means to describe what is going on in the images you want everyone to see, including hearing impaired or deft, which means you have to find another way to tell them what you are saying, and what if they have multiple disabilities, no sight, and no sound, and maybe only one hand, maybe none, and no feet, so what do we do then, well we use the head sensor that is built into the headset I am designing.
 
@@ -157,9 +172,9 @@ This app needs to work for disabled people, where sight impaired or blind and re
 
 You need a modern CPU and GPU that will run Unreal or Unity Games if you want to run in a Game mode, or VR or AR mode, otherwise, you should be able to run the applications written in Qt or .Net MAUI, so you need to have these applications or SDK installed.
 
-• CPU: Go for Core Count over speed
-• System RAM: 32 GB Minimum, recommend 64 GB Minimum
-• GPU: 8 GB RAM Minimum, recommend NVIDIA 3000 Series or above
+* CPU: Go for Core Count over speed
+* System RAM: 32 GB Minimum, recommend 64 GB Minimum
+* GPU: 8 GB RAM Minimum, recommend NVIDIA 3000 Series or above
 
 ## Reality
 
